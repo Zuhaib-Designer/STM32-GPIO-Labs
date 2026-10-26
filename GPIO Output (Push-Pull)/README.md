@@ -23,3 +23,9 @@ The GPIO pin PA5 is configured as an output. The program turns the LED ON for on
 - diagram.json -- Wokwi circuit configuration.
 - simulation.png -- Screenshot of the simulation.
 
+
+## Simulation Video
+Watch my practical demonstration of STM32 GPIO modes using the Wokwi simulator.
+[Watch GPIO Mode Learning Video](https://youtu.be/HWHebqywtNk)
+
+
