@@ -1,1 +1,29 @@
-
+{
+  "version": 1,
+  "author": "Zohaib Hassan",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-st-nucleo-c031c6",
+      "id": "nucleo",
+      "top": -411.97,
+      "left": 191.02,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -281.8,
+      "left": -86.4,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    { "type": "wokwi-gnd", "id": "gnd1", "top": -182.4, "left": 37.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "$serialMonitor:TX", "nucleo:PA3", "", [] ],
+    [ "$serialMonitor:RX", "nucleo:PA2", "", [] ],
+    [ "btn1:1.r", "nucleo:PC13", "green", [ "v0", "h105.8", "v38.4" ] ],
+    [ "btn1:2.r", "gnd1:GND", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
