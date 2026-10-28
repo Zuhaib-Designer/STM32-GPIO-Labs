@@ -1,7 +1,7 @@
 # Lab 3 -- STM32 GPIO Input With Internal Pull-Down Resistor
 
 ## Overview
-In this lab, we learn how to configure an STM32 GPIO pin as a digital input using an internal pull-down resistor. We will use the Wokwi simulator to read the state of a push button without needing physical hardware.
+In this lab, we learn how to configure an STM32 GPIO pin as a digital input using an internal pull-down resistor. We will use the Wokwi simulator to read a push button's state without physical hardware.
 
 ## Objectives
 - Understand the purpose of a pull-down resistor.
@@ -16,3 +16,11 @@ In this lab, we learn how to configure an STM32 GPIO pin as a digital input usin
 
 ## Circuit Diagram
 ![STM32 GPIO Pull-Down Circuit](GPIO_Input_With_Pulldown.png)
+*Figure 1: STM32 GPIO Input using an internal pull-down resistor in Wokwi.*
+
+## How it works:
+- Button released: PC13 reads LOW because the internal pull-down resistor holds the input near GND.
+- Button pressed: PC13 reads HIGH because the button connects PC13 to 3.3V.
+
+## Simulation Video
+[STM32 GPIO Pull-Down Circuit](https://youtu.be/HDijmh5e5EY)
