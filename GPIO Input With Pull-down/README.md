@@ -13,6 +13,6 @@ In this lab, we learn how to configure an STM32 GPIO pin as a digital input usin
 - STM32 Nucleo board in Wokwi
 - Arduino programming framework
 - Wokwi online simulator
-- Github for lab documentation
 
 ## Circuit Diagram
+![STM32 GPIO Pull-Down Circuit](GPIO Input With Pulldown.png)
