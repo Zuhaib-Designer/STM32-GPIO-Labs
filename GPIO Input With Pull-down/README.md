@@ -15,4 +15,4 @@ In this lab, we learn how to configure an STM32 GPIO pin as a digital input usin
 - Wokwi online simulator
 
 ## Circuit Diagram
-![STM32 GPIO Pull-Down Circuit](GPIO Input With Pulldown.png)
+![STM32 GPIO Pull-Down Circuit](GPIO_Input_With_Pulldown.png)
